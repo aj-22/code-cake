@@ -80,5 +80,6 @@ git branch -d feature-1a
 Commit this change in ReadMe.md locally and push it to remote.
 ```sh
 git add .
+git commit -m "Updated ReadMe.md"
 git push origin dev
 ```
