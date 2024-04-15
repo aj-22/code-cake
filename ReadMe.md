@@ -49,6 +49,16 @@ git pull
 8. Push changes from Local to GitHub.com
 ```sh
 git checkout dev
+git add .
 git commit -m "Updated Readme.md"
 git push remote origin 
+```
+
+Realize that if you make changes after adding, the new changes will not be committed with `git commit`.
+New changes need to be staged again.
+
+9. Add new changes and commit
+```sh
+git add .
+git commit -m "Added the changes that were missed"
 ```
