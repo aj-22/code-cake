@@ -62,3 +62,12 @@ New changes need to be staged again.
 git add .
 git commit -m "Added the changes that were missed"
 ```
+
+10. Create feature branch and raise a PR to merge it to dev
+```sh
+git checkout -b feature-1a
+# Add feature.py to local repo
+git add .
+git commit -m "Added feature"
+git push origin feature-1a
+```
