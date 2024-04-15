@@ -71,3 +71,14 @@ git add .
 git commit -m "Added feature"
 git push origin feature-1a
 ```
+Create a Pull Request in Github.com to merge feature-1a to dev. Delete the branch from remote.
+
+Delete the branch from local.
+```sh
+git branch -d feature-1a
+```
+Commit this change in ReadMe.md locally and push it to remote.
+```sh
+git add .
+git push origin dev
+```
