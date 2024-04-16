@@ -96,5 +96,5 @@ Add multiple random commits to `feature.py` file.
 Note down the commit number after committing.
 For example,
 commit-1 = `acfb640`
-commit-2 = ``
+commit-2 = `c17f87c`
 commit-3 = ``
