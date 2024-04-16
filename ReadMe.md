@@ -83,3 +83,13 @@ git add .
 git commit -m "Updated ReadMe.md"
 git push origin dev
 ```
+
+# Hands-on with cherry-pick
+
+1. Create Feature Branch 1b
+```sh
+git status # Check if on dev
+git pull origin dev # Sync with Origin
+git checkout -b feature-1b
+```
+Add multiple random commits to `feature.py` file
