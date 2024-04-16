@@ -92,4 +92,9 @@ git status # Check if on dev
 git pull origin dev # Sync with Origin
 git checkout -b feature-1b
 ```
-Add multiple random commits to `feature.py` file
+Add multiple random commits to `feature.py` file.
+Note down the commit number after committing.
+For example,
+commit-1 = `acfb640`
+commit-2 = ``
+commit-3 = ``

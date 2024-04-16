@@ -6,3 +6,6 @@ variable_x = 5
 variable_y = 10
 
 print(variable_x+variable_y)
+
+for i in range(5):
+    print('*'*(i+1))
